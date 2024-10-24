@@ -1,0 +1,256 @@
+Uri: https://renft-html.vercel.app/?storefront=envato-elements
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\index.htm
+Content Type: text/html
+
+Uri: https://renft-html.vercel.app/assets/css/animate.css
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\css\animate.css
+Content Type: text/css
+
+Uri: https://renft-html.vercel.app/assets/css/bootstrap.min.css
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://renft-html.vercel.app/assets/css/fontawesome.min.css
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\css\fontawesome.min.css
+Content Type: text/css
+
+Uri: https://renft-html.vercel.app/assets/css/odometer.css
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\css\odometer.css
+Content Type: text/css
+
+Uri: https://renft-html.vercel.app/assets/css/slick.min.css
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\css\slick.min.css
+Content Type: text/css
+
+Uri: https://renft-html.vercel.app/assets/css/style.css
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\css\style.css
+Content Type: text/css
+
+Uri: https://renft-html.vercel.app/assets/fonts/conthrax/conthrax-sb.ttf
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\fonts\conthrax\conthrax-sb.ttf
+Content Type: font/ttf
+
+Uri: https://renft-html.vercel.app/assets/fonts/fa-brands-400.ttf
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\fonts\fa-brands-400.ttf
+Content Type: font/ttf
+
+Uri: https://renft-html.vercel.app/assets/fonts/fa-brands-400.woff2
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\fonts\fa-brands-400.woff2
+Content Type: font/woff2
+
+Uri: https://renft-html.vercel.app/assets/fonts/fa-regular-400.ttf
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\fonts\fa-regular-400.ttf
+Content Type: font/ttf
+
+Uri: https://renft-html.vercel.app/assets/fonts/fa-regular-400.woff2
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\fonts\fa-regular-400.woff2
+Content Type: font/woff2
+
+Uri: https://renft-html.vercel.app/assets/fonts/fa-solid-900.ttf
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\fonts\fa-solid-900.ttf
+Content Type: font/ttf
+
+Uri: https://renft-html.vercel.app/assets/fonts/fa-solid-900.woff2
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\fonts\fa-solid-900.woff2
+Content Type: font/woff2
+
+Uri: https://renft-html.vercel.app/assets/fonts/fa-v4compatibility.ttf
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\fonts\fa-v4compatibility.ttf
+Content Type: font/ttf
+
+Uri: https://renft-html.vercel.app/assets/fonts/fa-v4compatibility.woff2
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\fonts\fa-v4compatibility.woff2
+Content Type: font/woff2
+
+Uri: https://renft-html.vercel.app/assets/fonts/urbanist/static/Urbanist-Bold.ttf
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\fonts\urbanist\static\Urbanist-Bold.ttf
+Content Type: font/ttf
+
+Uri: https://renft-html.vercel.app/assets/fonts/urbanist/static/Urbanist-Medium.ttf
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\fonts\urbanist\static\Urbanist-Medium.ttf
+Content Type: font/ttf
+
+Uri: https://renft-html.vercel.app/assets/fonts/urbanist/static/Urbanist-Regular.ttf
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\fonts\urbanist\static\Urbanist-Regular.ttf
+Content Type: font/ttf
+
+Uri: https://renft-html.vercel.app/assets/img/about_img_1.png
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\about_img_1.png
+Content Type: image/png
+
+Uri: https://renft-html.vercel.app/assets/img/collection_1.jpeg
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\collection_1.jpeg
+Content Type: image/jpeg
+
+Uri: https://renft-html.vercel.app/assets/img/collection_2.jpeg
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\collection_2.jpeg
+Content Type: image/jpeg
+
+Uri: https://renft-html.vercel.app/assets/img/collection_3.jpeg
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\collection_3.jpeg
+Content Type: image/jpeg
+
+Uri: https://renft-html.vercel.app/assets/img/collection_4.jpeg
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\collection_4.jpeg
+Content Type: image/jpeg
+
+Uri: https://renft-html.vercel.app/assets/img/collection_5.jpeg
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\collection_5.jpeg
+Content Type: image/jpeg
+
+Uri: https://renft-html.vercel.app/assets/img/cta_img_1.png
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\cta_img_1.png
+Content Type: image/png
+
+Uri: https://renft-html.vercel.app/assets/img/drag.png
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\drag.png
+Content Type: image/png
+
+Uri: https://renft-html.vercel.app/assets/img/favicon.png
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\favicon.png
+Content Type: image/png
+
+Uri: https://renft-html.vercel.app/assets/img/footer_logo.svg
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\footer_logo.svg
+Content Type: image/svg+xml
+
+Uri: https://renft-html.vercel.app/assets/img/hero_circle_text.svg
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\hero_circle_text.svg
+Content Type: image/svg+xml
+
+Uri: https://renft-html.vercel.app/assets/img/hero_img_1.png
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\hero_img_1.png
+Content Type: image/png
+
+Uri: https://renft-html.vercel.app/assets/img/hero_img_2.png
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\hero_img_2.png
+Content Type: image/png
+
+Uri: https://renft-html.vercel.app/assets/img/hero_img_3.png
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\hero_img_3.png
+Content Type: image/png
+
+Uri: https://renft-html.vercel.app/assets/img/hero_shape_1.svg
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\hero_shape_1.svg
+Content Type: image/svg+xml
+
+Uri: https://renft-html.vercel.app/assets/img/hero_shape_2.svg
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\hero_shape_2.svg
+Content Type: image/svg+xml
+
+Uri: https://renft-html.vercel.app/assets/img/hero_shape_3.svg
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\hero_shape_3.svg
+Content Type: image/svg+xml
+
+Uri: https://renft-html.vercel.app/assets/img/history_left_1.png
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\history_left_1.png
+Content Type: image/png
+
+Uri: https://renft-html.vercel.app/assets/img/history_left_2.png
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\history_left_2.png
+Content Type: image/png
+
+Uri: https://renft-html.vercel.app/assets/img/icons/icon_1.png
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\icons\icon_1.png
+Content Type: image/png
+
+Uri: https://renft-html.vercel.app/assets/img/icons/icon_2.png
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\icons\icon_2.png
+Content Type: image/png
+
+Uri: https://renft-html.vercel.app/assets/img/icons/icon_3.png
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\icons\icon_3.png
+Content Type: image/png
+
+Uri: https://renft-html.vercel.app/assets/img/icons/icon_4.png
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\icons\icon_4.png
+Content Type: image/png
+
+Uri: https://renft-html.vercel.app/assets/img/icons/tick.svg
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\icons\tick.svg
+Content Type: image/svg+xml
+
+Uri: https://renft-html.vercel.app/assets/img/logo.svg
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\logo.svg
+Content Type: image/svg+xml
+
+Uri: https://renft-html.vercel.app/assets/img/post_1.jpeg
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\post_1.jpeg
+Content Type: image/jpeg
+
+Uri: https://renft-html.vercel.app/assets/img/post_2.jpeg
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\post_2.jpeg
+Content Type: image/jpeg
+
+Uri: https://renft-html.vercel.app/assets/img/post_3.jpeg
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\post_3.jpeg
+Content Type: image/jpeg
+
+Uri: https://renft-html.vercel.app/assets/img/post_details_1.jpeg
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\post_details_1.jpeg
+Content Type: image/jpeg
+
+Uri: https://renft-html.vercel.app/assets/img/post_details_2.jpeg
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\post_details_2.jpeg
+Content Type: image/jpeg
+
+Uri: https://renft-html.vercel.app/assets/img/team_1.png
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\team_1.png
+Content Type: image/png
+
+Uri: https://renft-html.vercel.app/assets/img/team_2.png
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\team_2.png
+Content Type: image/png
+
+Uri: https://renft-html.vercel.app/assets/img/team_3.png
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\team_3.png
+Content Type: image/png
+
+Uri: https://renft-html.vercel.app/assets/img/team_4.png
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\team_4.png
+Content Type: image/png
+
+Uri: https://renft-html.vercel.app/assets/img/vector_shape_1.png
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\img\vector_shape_1.png
+Content Type: image/png
+
+Uri: https://renft-html.vercel.app/assets/js/gsap.min.js
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\js\gsap.min.js
+Content Type: application/javascript
+
+Uri: https://renft-html.vercel.app/assets/js/jquery-3.6.0.min.js
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\js\jquery-3.6.0.min.js
+Content Type: application/javascript
+
+Uri: https://renft-html.vercel.app/assets/js/jquery.slick.min.js
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\js\jquery.slick.min.js
+Content Type: application/javascript
+
+Uri: https://renft-html.vercel.app/assets/js/main.js
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\js\main.js
+Content Type: application/javascript
+
+Uri: https://renft-html.vercel.app/assets/js/odometer.js
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\js\odometer.js
+Content Type: application/javascript
+
+Uri: https://renft-html.vercel.app/assets/js/wow.min.js
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\assets\js\wow.min.js
+Content Type: application/javascript
+
+Uri: https://renft-html.vercel.app/blog-details.html
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\blog-details.html
+Content Type: text/html
+
+Uri: https://renft-html.vercel.app/blog.html
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\blog.html
+Content Type: text/html
+
+Uri: https://renft-html.vercel.app/index-v2.html
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\index-v2.html
+Content Type: text/html
+
+Uri: https://renft-html.vercel.app/index.html
+File Name: C:\Users\dordo\Desktop\renft-html.vercel.app\index.html
+Content Type: text/html
+
