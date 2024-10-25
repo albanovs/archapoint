@@ -25,7 +25,7 @@
   --heading-color: #fff;
   --body-color: rgba(255, 255, 255, 0.7);
   --ternary: #88a5ad;
-  --accent-color: #e018ff;
+  --accent-color: #18c9ff;
   --gray: #f7f7f7;
   --border: #dddddd;
   --heading-font: "Conthrax", serif;
@@ -251,14 +251,10 @@ textarea {
     linear,
     left top,
     left bottom,
-    from(rgba(224, 24, 255, 0.5)),
-    to(rgba(134, 14, 153, 0.5))
+    from(#18c9ff),
+    to(rgba(10, 64, 156, 0.5))
   );
-  background: linear-gradient(
-    180deg,
-    rgba(224, 24, 255, 0.5) 0%,
-    rgba(134, 14, 153, 0.5) 100%
-  );
+  background: linear-gradient(180deg, #18c9ff 0%, rgba(10, 64, 156, 0.5) 100%);
   -webkit-filter: blur(250px);
   filter: blur(250px);
   position: absolute;
@@ -274,7 +270,7 @@ textarea {
 }
 
 .cs_preloader_in {
-  background: linear-gradient(116.85deg, #e018ff 0%, #823fff 100%);
+  background: linear-gradient(116.85deg, #18c9ff 0%, #3f4fff 100%);
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -1561,7 +1557,7 @@ hr {
 }
 
 .cs_gradient_color {
-  background: linear-gradient(108.18deg, #823fff 40%, #e018ff 60%);
+  background: linear-gradient(108.18deg, #18c9ff 40%, #1865ff 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1614,10 +1610,10 @@ label {
     linear,
     left top,
     right top,
-    from(#e018ff),
-    to(#823fff)
+    from(#18c9ff),
+    to(#3f52ff)
   );
-  background: linear-gradient(90deg, #e018ff 0%, #823fff 100%);
+  background: linear-gradient(90deg, #18c9ff 0%, #3f5cff 100%);
 }
 @media (max-width: 767px) {
   .cs_btn.cs_style_1 {
@@ -1754,21 +1750,17 @@ label {
     linear,
     left top,
     left bottom,
-    from(rgba(224, 24, 255, 0.5)),
-    to(rgba(134, 14, 153, 0.5))
+    from(#18c9ff),
+    to(rgba(53, 14, 153, 0.5))
   );
-  background: linear-gradient(
-    180deg,
-    rgba(224, 24, 255, 0.5) 0%,
-    rgba(134, 14, 153, 0.5) 100%
-  );
+  background: linear-gradient(180deg, #18c9ff 0%, rgba(44, 14, 153, 0.5) 100%);
   -webkit-filter: blur(250px);
   filter: blur(250px);
   position: absolute;
   pointer-events: none;
 }
 
-> *:not(.cs_shape) {
+*:not(.cs_shape) {
   position: relative;
   z-index: 5;
 }
@@ -1897,7 +1889,7 @@ label {
   line-height: 1.143em;
   text-transform: uppercase;
   opacity: 0.7;
-  background: var(--linear, linear-gradient(90deg, #e018ff 0%, #823fff 100%));
+  background: var(--linear, linear-gradient(90deg, #18c9ff 0%, #3f42ff 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1907,7 +1899,7 @@ label {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  background: var(--linear, linear-gradient(90deg, #e018ff 0%, #823fff 100%));
+  background: var(--linear, linear-gradient(90deg, #18c9ff 0%, #4c3fff 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -text-stroke: 1px transparent;
@@ -2255,7 +2247,7 @@ label {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  background: var(--linear, linear-gradient(90deg, #e018ff 10%, #823fff 90%));
+  background: var(--linear, linear-gradient(90deg, #18c9ff 10%, #423fff 90%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2510,7 +2502,7 @@ label {
 }
 .cs_slider_arrows.cs_style_1 .cs_left_arrow:hover,
 .cs_slider_arrows.cs_style_1 .cs_right_arrow:hover {
-  background: var(--linear, linear-gradient(90deg, #e018ff 0%, #823fff 100%));
+  background: var(--linear, linear-gradient(90deg, #18c9ff 0%, #3f42ff 100%));
 }
 
 .cs_pagination.cs_style_1 {
@@ -2559,7 +2551,7 @@ label {
   transition: all 0.3s ease;
 }
 .cs_pagination.cs_style_1 li.slick-active {
-  background: var(--linear, linear-gradient(90deg, #e018ff 0%, #823fff 100%));
+  background: var(--linear, linear-gradient(90deg, #18c9ff 0%, #4f3fff 100%));
 }
 .cs_pagination.cs_style_1 li.slick-active::before {
   background-color: var(--web-wash);
@@ -3125,7 +3117,7 @@ label {
 .cs_newsletter .cs_newsletter_input {
   display: block;
   width: 100%;
-  border: 1px solid #e018ff;
+  border: 1px solid #18c9ff;
   height: 40px;
   background-color: transparent;
   border-radius: 8px;
@@ -3143,10 +3135,10 @@ label {
     linear,
     left top,
     right top,
-    from(#e018ff),
-    to(#823fff)
+    from(#18c9ff),
+    to(#523fff)
   );
-  background: linear-gradient(90deg, #e018ff 0%, #823fff 100%);
+  background: linear-gradient(90deg, #18c9ff 0%, #553fff 100%);
   border-radius: 0 8px 8px 0;
   color: #fff;
 }
@@ -3339,10 +3331,10 @@ label {
     linear,
     left top,
     right top,
-    from(#e018ff),
-    to(#823fff)
+    from(#18c9ff),
+    to(#5c3fff)
   );
-  background: linear-gradient(90deg, #e018ff 0%, #823fff 100%);
+  background: linear-gradient(90deg, #18c9ff 0%, #523fff 100%);
   height: 80px;
   width: 80px;
   border-radius: 50%;
@@ -3563,13 +3555,13 @@ label {
     linear,
     right top,
     left top,
-    from(rgba(217, 26, 255, 0.4)),
-    to(rgba(135, 61, 255, 0.4))
+    from(rgba(26, 171, 255, 0.4)),
+    to(rgba(74, 61, 255, 0.4))
   );
   background: linear-gradient(
     270deg,
-    rgba(217, 26, 255, 0.4) 0%,
-    rgba(135, 61, 255, 0.4) 100%
+    rgba(26, 171, 255, 0.4) 0%,
+    rgba(74, 61, 255, 0.4) 100%
   );
   border-radius: 40px;
 }
@@ -3634,13 +3626,13 @@ label {
     linear,
     right top,
     left top,
-    from(rgb(217, 26, 255)),
-    to(rgb(135, 61, 255))
+    from(rgb(26, 198, 255)),
+    to(rgb(97, 61, 255))
   );
   background: linear-gradient(
     270deg,
-    rgb(217, 26, 255) 0%,
-    rgb(135, 61, 255) 100%
+    rgb(26, 198, 255) 0%,
+    rgb(97, 61, 255) 100%
   );
 }
 
@@ -3683,7 +3675,7 @@ label {
   width: 30px;
   height: 28px;
   border-radius: 8px 0px 16px 0px;
-  background: var(--linear, linear-gradient(90deg, #e018ff 0%, #823fff 100%));
+  background: var(--linear, linear-gradient(90deg, #18c9ff 0%, #493fff 100%));
   font-size: 12px;
   font-weight: 600;
   font-family: var(--heading-font);
@@ -3717,7 +3709,7 @@ label {
   word-wrap: break-word;
   width: 40px;
   height: 40px;
-  background: var(--linear, linear-gradient(90deg, #e018ff 0%, #823fff 100%));
+  background: var(--linear, linear-gradient(90deg, #18c9ff 0%, #4f3fff 100%));
   font-size: 14px;
   font-weight: 600;
   font-family: var(--heading-font);
@@ -3736,8 +3728,8 @@ label {
     --linear,
     linear-gradient(
       90deg,
-      rgba(224, 24, 255, 0.2) 0%,
-      rgba(130, 63, 255, 0.2) 100%
+      rgba(24, 136, 255, 0.2) 0%,
+      rgba(73, 63, 255, 0.2) 100%
     )
   );
   padding: 1px;
@@ -3783,7 +3775,7 @@ label {
 .cs_post.cs_style_1 .cs_post_meta_separator {
   width: 24px;
   height: 1px;
-  background: var(--linear, linear-gradient(90deg, #e018ff 0%, #823fff 100%));
+  background: var(--linear, linear-gradient(90deg, #18c9ff 0%, #453fff 100%));
 }
 .cs_post.cs_style_1 .cs_post_title {
   font-size: 24px;
@@ -3827,7 +3819,7 @@ label {
 .cs_post.cs_style_1:hover {
   background: var(
     --linear,
-    linear-gradient(90deg, rgb(224, 24, 255) 0%, rgb(130, 63, 255) 100%)
+    linear-gradient(90deg, rgb(24, 178, 255) 0%, rgb(69, 63, 255) 100%)
   );
 }
 .cs_post.cs_style_1:hover .cs_post_btn {
@@ -3912,10 +3904,10 @@ label {
     linear,
     left top,
     right top,
-    from(#e018ff),
-    to(#823fff)
+    from(#18c9ff),
+    to(#423fff)
   );
-  background: linear-gradient(90deg, #e018ff 0%, #823fff 100%);
+  background: linear-gradient(90deg, #18c9ff 0%, #3f45ff 100%);
   padding: 1px;
   border-radius: 1px;
 }
@@ -3936,10 +3928,10 @@ label {
     linear,
     left top,
     right top,
-    from(#e018ff),
-    to(#823fff)
+    from(#18c9ff),
+    to(#4c3fff)
   );
-  background: linear-gradient(90deg, #e018ff 0%, #823fff 100%);
+  background: linear-gradient(90deg, #18c9ff 0%, #5c3fff 100%);
   color: var(--heading-color);
 }
 
@@ -3949,10 +3941,10 @@ label {
     linear,
     left top,
     right top,
-    from(#e018ff),
-    to(#823fff)
+    from(#18c9ff),
+    to(#453fff)
   );
-  background: linear-gradient(90deg, #e018ff 0%, #823fff 100%);
+  background: linear-gradient(90deg, #18c9ff 0%, #553fff 100%);
 }
 
 /*--------------------------------------------------------------
@@ -3964,13 +3956,13 @@ label {
     linear,
     left top,
     right top,
-    from(rgba(224, 24, 255, 0.1)),
-    to(rgba(130, 63, 255, 0.1))
+    from(rgba(24, 155, 255, 0.1)),
+    to(rgba(98, 63, 255, 0.1))
   );
   background: linear-gradient(
     90deg,
-    rgba(224, 24, 255, 0.1) 0%,
-    rgba(130, 63, 255, 0.1) 100%
+    rgba(24, 155, 255, 0.1) 0%,
+    rgba(98, 63, 255, 0.1) 100%
   );
   padding: 60px;
   position: relative;
@@ -4060,7 +4052,7 @@ label {
   14. Team
 ----------------------------------------------------------------*/
 .cs_team.cs_style_1 {
-  background: var(--linear, linear-gradient(90deg, #e018ff 0%, #823fff 100%));
+  background: var(--linear, linear-gradient(90deg, #18c9ff 0%, #4f3fff 100%));
   border-radius: 8px;
   padding: 1px;
 }
@@ -4079,7 +4071,7 @@ label {
   border-radius: inherit;
 }
 .cs_team.cs_style_1.cs_type_1 .cs_team_thumbnail_wrapper {
-  background: var(--linear, linear-gradient(90deg, #e018ff 0%, #823fff 100%));
+  background: var(--linear, linear-gradient(90deg, #18c9ff 0%, #3f45ff 100%));
   border-radius: 50%;
   padding-bottom: 1px;
 }
@@ -4130,8 +4122,8 @@ label {
     --linear,
     linear-gradient(
       90deg,
-      rgba(224, 24, 255, 0.11) 0%,
-      rgba(130, 63, 255, 0.11) 100%
+      rgba(24, 113, 255, 0.11) 0%,
+      rgba(105, 63, 255, 0.11) 100%
     )
   );
   background-color: var(--web-wash);
@@ -4192,7 +4184,7 @@ label {
   opacity: 1;
 }
 .cs_team.cs_style_1 .cs_social_btns.cs_style_1 a:not(:first-child):hover {
-  background: var(--linear, linear-gradient(90deg, #e018ff 0%, #823fff 100%));
+  background: var(--linear, linear-gradient(90deg, #18c9ff 0%, #5c3fff 100%));
 }
 .cs_team.cs_style_1:hover .cs_social_btns.cs_style_1 {
   gap: 15px;
@@ -4238,8 +4230,8 @@ label {
     --linear,
     linear-gradient(
       90deg,
-      rgba(224, 24, 255, 0.8) 0%,
-      rgba(130, 63, 255, 0.8) 100%
+      rgba(24, 166, 255, 0.8) 0%,
+      rgba(79, 63, 255, 0.8) 100%
     )
   );
   border-radius: 0px 0px 8px 8px;
@@ -4260,3 +4252,6 @@ label {
   font-size: 20px;
   line-height: 1.5em;
 } /*# sourceMappingURL=style.css.map */
+
+
+/* #5ABDF9 */
