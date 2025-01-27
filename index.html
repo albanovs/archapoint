@@ -404,6 +404,7 @@
   </section>
   <section class="cs_shape_wrap cs_team_shapes_1 position-relative" id="team">
     <div class="cs_shape cs_shape_position_1"></div>
+    <div class="cs_shape cs_shape_position_1"></div>
     <div class="cs_shape cs_shape_position_2"></div>
     <div class="cs_height_120 cs_height_lg_80"></div>
     <div class="container">
@@ -611,41 +612,40 @@
     <div class="cs_unique_container">
       <div class="cs_unique_hero_in">
         <div class="cs_unique_hero_content">
-          <h1 class="cs_unique_title">Заполните форму</h1>
+          <h1 class="cs_unique_title">Оформить доставку</h1>
           <form class="cs_unique_form">
-            <!-- Имя -->
             <div class="cs_unique_form_group">
               <label for="name" class="cs_unique_label">Ваше имя</label>
               <input autocomplete="off" type="text" id="name" name="name" placeholder="Введите ваше имя"
                 class="cs_unique_input" required>
             </div>
-
-            <!-- Телефон -->
             <div class="cs_unique_form_group">
               <label for="phone" class="cs_unique_label">Ваш номер телефона</label>
               <input autocomplete="off" type="tel" id="phone" name="phone" placeholder="+996 555 123 456"
                 class="cs_unique_input" required>
             </div>
-
-            <!-- Откуда -->
             <div class="cs_unique_form_group">
-              <label for="from" class="cs_unique_label">Откуда забрать посылку</label>
+              <label for="from" class="cs_unique_label">Откуда</label>
               <input autocomplete="off" type="text" id="from" name="from" placeholder="Введите адрес посылки"
                 class="cs_unique_input" required>
             </div>
-
-            <!-- Постамат -->
             <div class="cs_unique_form_group">
-              <label for="postamat" class="cs_unique_label">Доставить посылку в:</label>
-              <select id="postamat" name="postamat" class="cs_unique_select" required>
-                <option style="background-color: black;" value="">Выберите постамат</option>
-                <option style="background-color: black;" value="postamat1">Постамат №1</option>
-                <option style="background-color: black;" value="postamat2">Постамат №2</option>
-                <option style="background-color: black;" value="postamat3">Постамат №3</option>
+              <label for="terminal" class="cs_unique_label">Доставить в:</label>
+              <select id="terminal" name="terminal" class="cs_unique_select" required>
+                <option for="terminal" style="background-color: black;" value="">Выберите постамат</option>
+                <option for="terminal" style="background-color: black;"
+                  value="​Bishkek Park ​Киевская улица, 148 ​B2 этаж">​Bishkek Park ​Киевская улица, 148 ​B2 этаж
+                </option>
+                <option for="terminal" style="background-color: black;" value="​Гипермаркет Азия ​Улица Максима Горького, 1/2а">​Гипермаркет Азия ​Улица Максима Горького, 1/2а</option>
+                <option for="terminal" style="background-color: black;" value="​ТЦ DK, Нуркамал Жетикашкаевой, 29">​ТЦ DK, Нуркамал Жетикашкаевой, 29</option>
+                <option for="terminal" style="background-color: black;"
+                  value="​ТРЦ Tommi mall, Аалы Токомбаева улица, 17/2">​ТРЦ Tommi mall, Аалы Токомбаева улица, 17/2
+                </option>
+                <option for="terminal" style="background-color: black;"
+                  value="​Гипермаркет Азия, улица Льва Толстого, 24">​Гипермаркет Азия, улица Льва Толстого, 24
+                </option>
               </select>
             </div>
-
-            <!-- Кнопка отправки -->
             <div class="cs_unique_form_group text-center">
               <button type="submit" class="cs_unique_button">Отправить</button>
             </div>
@@ -816,6 +816,7 @@
   <script src="assets/js/jquery.slick.min.js"></script>
   <script src="assets/js/odometer.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/modal.js"></script>
 </body>
 
 </html>

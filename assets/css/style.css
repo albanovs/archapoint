@@ -1743,8 +1743,8 @@ label {
   position: relative;
 }
 .cs_shape_wrap .cs_shape {
-  width: 514px;
-  height: 514px;
+  width: 714px;
+  height: 614px;
   border-radius: 50%;
 
   /* Резервный фон для предотвращения исчезновения цвета */
@@ -4271,21 +4271,20 @@ label {
 /* #5ABDF9 */
 
 .cs_unique_container {
-  max-width: 1200px;
-  margin: 0 auto;
+  /* max-width: 1200px; */
+  /* margin: 0 auto; */
   padding: 24px;
 }
 
-.cs_unique_hero_in {
+/* .cs_unique_hero_in {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .cs_unique_title {
-  font-weight: bold;
   margin-bottom: 24px;
-  font-size: 34px;
+  font-size: 46px;
   text-align: center;
 }
 
@@ -4296,7 +4295,7 @@ label {
   background-color: rgba(98, 98, 165, 0.079);
   backdrop-filter: blur(50px);
   color: white;
-  /* border: 0.5px solid #2d3e61; */
+  border: 0.5px solid #2d3e61;
 }
 
 .cs_unique_form_group {
