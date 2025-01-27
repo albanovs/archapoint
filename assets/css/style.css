@@ -4270,13 +4270,15 @@ label {
 .cs_unique_title {
   font-weight: bold;
   margin-bottom: 24px;
+  font-size: 34px;
+  text-align: center;
 }
 
 .cs_unique_form {
   width: 100%;
   padding: 32px;
-  margin: 0 auto;
-  background-color: rgba(36, 36, 100, 0.142);
+  /* margin: 0 auto; */
+  background-color: rgba(103, 103, 123, 0.142);
   backdrop-filter: blur(40px);
   color: white;
   border-radius: 8px;
