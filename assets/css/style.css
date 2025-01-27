@@ -4254,3 +4254,67 @@ label {
 } /*# sourceMappingURL=style.css.map */
 
 /* #5ABDF9 */
+
+.cs_unique_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.cs_unique_hero_in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cs_unique_title {
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.cs_unique_form {
+  width: 100%;
+  padding: 32px;
+  margin: 0 auto;
+  background-color: rgba(36, 36, 100, 0.142);
+  backdrop-filter: blur(40px);
+  color: white;
+  border-radius: 8px;
+  border: 0.5px solid #2d3e61;
+}
+
+.cs_unique_form_group {
+  margin-bottom: 24px;
+}
+.cs_unique_input,
+.cs_unique_select {
+  width: 100%;
+  padding: 12px;
+  background-color: inherit;
+  border: none;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.275);
+  color: white;
+  font-size: 1rem;
+  outline: none;
+}
+
+.cs_unique_input:focus,
+.cs_unique_select:focus {
+  border-bottom: 1px solid transparent;
+  border-color: rgba(59, 130, 246, 0.5);
+}
+
+.cs_unique_button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cs_unique_button:hover {
+  background-color: #2563eb;
+}
