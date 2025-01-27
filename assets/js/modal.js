@@ -84,6 +84,7 @@ form.addEventListener('submit', async (event) => {
         name: document.getElementById('name').value,
         phone: document.getElementById('phone').value,
         from: document.getElementById('from').value,
+        product_archa: document.getElementById('product_archa').value,
         postamat: document.getElementById('terminal').value,
     };
     try {
