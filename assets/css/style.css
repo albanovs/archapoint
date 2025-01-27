@@ -1746,13 +1746,13 @@ label {
   width: 514px;
   height: 514px;
   border-radius: 50%;
-  background: -webkit-gradient(
+  /* background: gradient(
     linear,
     left top,
     left bottom,
     from(#18c9ff),
     to(rgba(53, 14, 153, 0.5))
-  );
+  ); */
   background: linear-gradient(180deg, #18c9ff 0%, rgba(44, 14, 153, 0.5) 100%);
   -webkit-filter: blur(250px);
   filter: blur(250px);
