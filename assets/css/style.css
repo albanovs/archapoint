@@ -1746,22 +1746,33 @@ label {
   width: 514px;
   height: 514px;
   border-radius: 50%;
+
+  /* Резервный фон для предотвращения исчезновения цвета */
+  background-color: #18c9ff;
+
+  /* Градиент с hsla для совместимости с iOS */
   background: -webkit-gradient(
     linear,
     left top,
     left bottom,
     from(#18c9ff),
-    to(rgba(53, 14, 153, 0.5))
+    to(hsla(253, 90%, 40%, 0.5))
   );
-  background-color: linear-gradient(
+  background: linear-gradient(
     180deg,
-    #18c9ff 0%,
-    rgba(44, 14, 153, 0.5) 100%
+    #18c9ff54 0%,
+    hsla(253, 90%, 40%, 0.23) 100%
   );
-  -webkit-filter: blur(250px);
-  filter: blur(250px);
+
+  /* Уменьшение интенсивности blur */
+  -webkit-filter: blur(150px);
+  filter: blur(150px);
+
+  /* Оптимизация для iOS */
+  will-change: transform, opacity;
+
   position: absolute;
-  /* pointer-events: none; */
+  pointer-events: none;
 }
 
 *:not(.cs_shape) {
@@ -4282,11 +4293,10 @@ label {
   width: 100%;
   padding: 32px;
   /* margin: 0 auto; */
-  background-color: rgba(103, 103, 123, 0.142);
-  backdrop-filter: blur(40px);
+  background-color: rgba(98, 98, 165, 0.079);
+  backdrop-filter: blur(50px);
   color: white;
-  border-radius: 8px;
-  border: 0.5px solid #2d3e61;
+  /* border: 0.5px solid #2d3e61; */
 }
 
 .cs_unique_form_group {
