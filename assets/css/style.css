@@ -2639,7 +2639,7 @@ label {
 }
 
 .cs_site_header.cs_style_1.cs_sticky_active {
-  background-color: #130a13;
+  background-color: #000000e1;
   -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
 }
@@ -4332,4 +4332,56 @@ label {
 
 .cs_unique_button:hover {
   background-color: #2563eb;
+}
+
+.ultimate-delivery-wrapper {
+  width: 100%;
+  background: linear-gradient(145deg, #0a0a0a69, #14141477);
+  border-radius: 16px;
+  backdrop-filter: (40px);
+  padding: 2rem;
+}
+
+.superior-section-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.convenience-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.feature-card {
+  background: #12121288;
+  padding: 1.5rem;
+  border-radius: 12px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);
+  cursor: pointer;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  color: #1e90ff;
+  margin-bottom: 1rem;
+}
+
+.feature-description {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #dcdcdc;
+}
+
+.cta-section {
+  text-align: center;
+  margin-top: 2rem;
 }
