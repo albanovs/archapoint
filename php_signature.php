@@ -1,3 +1,5 @@
+<?php
+
 $input = json_decode(file_get_contents('php://input'), true);
 
 // Проверяем, если данных нет
@@ -21,7 +23,7 @@ $data[$key] = $value;
 
 
 // Ключ для HMAC
-$secretKey = "P6rmeJ-7TUYHq9HuiODtNLQY1taofl"; // Замените на ваш секретный ключ
+$secretKey = "9WOUvnCu"; // Замените на ваш секретный ключ
 
 // Шаг 1: Сортировка параметров в естественном порядке
 ksort($data, SORT_NATURAL);
