@@ -197,7 +197,7 @@
               сеть постаматов (автоматизированных пунктов выдачи и приема посылок) на территории
               республики.
               Мы стремимся трансформировать рынок доставки товаров, предлагая инновационные
-              решения, которые делают шопинг в интернете проще и быстрее для каждого клиента. В
+              решения, которые делают онлайн-заказы в интернете проще и быстрее для каждого клиента. В
               условиях быстро развивающейся цифровой экономики мы видим своей задачей создание
               инфраструктуры, которая удовлетворит потребности современных покупателей.</p>
 
@@ -311,8 +311,8 @@
                 <div class="cs_card_text">
                   <div class="cs_card_text_inner">
                     <h3 class="cs_card_title cs_semibold mb-0"><a
-                        href="https://2gis.kg/bishkek/geo/70000001092731540">супермаркет «Азия»</a></h3>
-                    <p class="cs_card_subtitle mb-0">ул.Льва Толстого 24</p>
+                        href="https://2gis.kg/bishkek/geo/70000001030446839">супермаркет «Азия»</a></h3>
+                    <p class="cs_card_subtitle mb-0">ул. Садырбаева 107</p>
                   </div>
                 </div>
               </div>
@@ -438,7 +438,7 @@
                   </div>
                 </div>
                 <div class="cs_team_bio">
-                  <h3 class="cs_team_title cs_semibold">Kivano KG</h3>
+                  <h3 class="cs_team_title cs_semibold"><a href="https://instagram.com/kivanokg">Kivano KG</a></h3>
                   <p class="cs_team_subtitle mb-0">Интернет магазин</p>
                 </div>
               </div>
@@ -454,7 +454,8 @@
                   </div>
                 </div>
                 <div class="cs_team_bio">
-                  <h3 class="cs_team_title cs_semibold">UBS express</h3>
+                  <h3 class="cs_team_title cs_semibold"><a href="https://instagram.com/ubs.express.kg">UBS express</a>
+                  </h3>
                   <p class="cs_team_subtitle mb-0">Перевозка грузов</p>
                 </div>
               </div>
@@ -470,7 +471,8 @@
                   </div>
                 </div>
                 <div class="cs_team_bio">
-                  <h3 class="cs_team_title cs_semibold">DPD</h3>
+                  <h3 class="cs_team_title cs_semibold"><a href="https://www.instagram.com/dpd_in_kyrgyzstan/">DPD</a>
+                  </h3>
                   <p class="cs_team_subtitle mb-0">Доставка грузов</p>
                 </div>
               </div>
@@ -478,7 +480,7 @@
             <div class="cs_slide">
               <div class="cs_team cs_style_1">
                 <div class="cs_team_thumbnail cs_center">
-                  <!-- <img src="assets/img/team_4.png" alt="Team Thumbnail"> -->
+                  <img width="220" src="assets/img/korean.jpg" alt="Team Thumbnail">
                   <div class="cs_social_btns cs_style_1 position-absolute">
                     <a href="#" class="cs_center cs_share"><i class="fa-solid fa-plus"></i></a>
                     <a href="#" class="cs_center"><i class="fa-brands fa-facebook-f"></i></a>
@@ -487,8 +489,9 @@
                   </div>
                 </div>
                 <div class="cs_team_bio">
-                  <h3 class="cs_team_title cs_semibold">Доступно</h3>
-                  <p class="cs_team_subtitle mb-0">Для сотрудничества</p>
+                  <h3 class="cs_team_title cs_semibold"><a href="https://www.instagram.com/korean.trade">Korean
+                      Trade</a></h3>
+                  <p class="cs_team_subtitle mb-0">Доставка грузов из Кореи</p>
                 </div>
               </div>
             </div>
@@ -670,54 +673,61 @@
       <div class="cs_unique_hero_in">
         <div class="cs_unique_hero_content">
           <h1 class="cs_unique_title">Оформить доставку</h1>
-          <form class="cs_unique_form">
-            <div class="cs_unique_form_group">
-              <label for="name" class="cs_unique_label">Ваше имя</label>
-              <input autocomplete="off" type="text" id="name" name="name" placeholder="Введите ваше имя"
-                class="cs_unique_input" required>
+          <div>
+            <h4>С курьером</h4>
+            <P>Наш курьер забирает вашу посылку и доставляет ее в постамат</P>
+            <div class="cs_unique_form">
+              <div class="cs_unique_form_group">
+                <label for="name" class="cs_unique_label">Ваше имя</label>
+                <input autocomplete="off" type="text" id="name" name="name" placeholder="Введите ваше имя"
+                  class="cs_unique_input" required>
+              </div>
+              <div class="cs_unique_form_group">
+                <label for="phone" class="cs_unique_label">Ваш номер телефона (WhatsApp / Telegram)</label>
+                <input autocomplete="off" type="tel" id="phone" name="phone" placeholder="+996 555 123 456"
+                  class="cs_unique_input" required>
+              </div>
+              <div class="cs_unique_form_group">
+                <label for="from" class="cs_unique_label">Откуда (магазин, склад, дом, квартира)</label>
+                <input autocomplete="off" type="text" id="from" name="from" placeholder="Введите адрес посылки"
+                  class="cs_unique_input" required>
+              </div>
+              <div class="cs_unique_form_group">
+                <label for="detail" class="cs_unique_label">Описание посылки</label>
+                <input autocomplete="off" type="text" id="detail" name="detail" placeholder="Опишите посылку"
+                  class="cs_unique_input" required>
+              </div>
+              <div class="cs_unique_form_group">
+                <label for="terminal" class="cs_unique_label">Доставить в:</label>
+                <select id="terminal" name="terminal" class="cs_unique_select" required>
+                  <option for="terminal" style="background-color: black;" value="">Выберите постамат</option>
+                  <option for="terminal" style="background-color: black;"
+                    value="​Bishkek Park ​Киевская улица, 148 ​B2 этаж">​Bishkek Park ​Киевская улица, 148 ​B2
+                    этаж
+                  </option>
+                  <option for="terminal" style="background-color: black;"
+                    value="​Гипермаркет Азия ​Улица Максима Горького, 1/2а">​Гипермаркет Азия ​Улица Максима
+                    Горького,
+                    1/2а</option>
+                  <option for="terminal" style="background-color: black;" value="​ТЦ DK, Нуркамал Жетикашкаевой, 29">
+                    ​ТЦ
+                    DK, Нуркамал Жетикашкаевой, 29</option>
+                  <option for="terminal" style="background-color: black;"
+                    value="​ТРЦ Tommi mall, Аалы Токомбаева улица, 17/2">​ТРЦ Tommi mall, Аалы Токомбаева улица,
+                    17/2
+                  </option>
+                  <option for="terminal" style="background-color: black;"
+                    value="​Гипермаркет Азия, улица Льва Толстого, 24">Супермаркет Азия, улица Садырбаева, 107
+                  </option>
+                </select>
+              </div>
+              <div class="cs_unique_form_group text-center">
+                <p style="color: rgb(158, 158, 158); font-size: 12px; font-weight: 300;">Даю своё согласие на обработку
+                  персональных данных</p>
+                <button type="button" class="cs_unique_button" id="openPolicy">Отправить</button>
+              </div>
             </div>
-            <div class="cs_unique_form_group">
-              <label for="phone" class="cs_unique_label">Ваш номер телефона</label>
-              <input autocomplete="off" type="tel" id="phone" name="phone" placeholder="+996 555 123 456"
-                class="cs_unique_input" required>
-            </div>
-            <div class="cs_unique_form_group">
-              <label for="from" class="cs_unique_label">Откуда</label>
-              <input autocomplete="off" type="text" id="from" name="from" placeholder="Введите адрес посылки"
-                class="cs_unique_input" required>
-            </div>
-            <div class="cs_unique_form_group">
-              <label for="detail" class="cs_unique_label">Описание посылки</label>
-              <input autocomplete="off" type="text" id="detail" name="detail" placeholder="Опишите посылку"
-                class="cs_unique_input" required>
-            </div>
-            <div class="cs_unique_form_group">
-              <label for="terminal" class="cs_unique_label">Доставить в:</label>
-              <select id="terminal" name="terminal" class="cs_unique_select" required>
-                <option for="terminal" style="background-color: black;" value="">Выберите постамат</option>
-                <option for="terminal" style="background-color: black;"
-                  value="​Bishkek Park ​Киевская улица, 148 ​B2 этаж">​Bishkek Park ​Киевская улица, 148 ​B2
-                  этаж
-                </option>
-                <option for="terminal" style="background-color: black;"
-                  value="​Гипермаркет Азия ​Улица Максима Горького, 1/2а">​Гипермаркет Азия ​Улица Максима
-                  Горького,
-                  1/2а</option>
-                <option for="terminal" style="background-color: black;" value="​ТЦ DK, Нуркамал Жетикашкаевой, 29">​ТЦ
-                  DK, Нуркамал Жетикашкаевой, 29</option>
-                <option for="terminal" style="background-color: black;"
-                  value="​ТРЦ Tommi mall, Аалы Токомбаева улица, 17/2">​ТРЦ Tommi mall, Аалы Токомбаева улица,
-                  17/2
-                </option>
-                <option for="terminal" style="background-color: black;"
-                  value="​Гипермаркет Азия, улица Льва Толстого, 24">​Гипермаркет Азия, улица Льва Толстого, 24
-                </option>
-              </select>
-            </div>
-            <div class="cs_unique_form_group text-center">
-              <button type="submit" class="cs_unique_button">Отправить</button>
-            </div>
-          </form>
+          </div>
         </div>
       </div>
     </div>
@@ -842,9 +852,8 @@
               <li><a href="https://2gis.kg/bishkek/geo/70000001092731396">​ТРЦ Tommi mall, Аалы Токомбаева
                   улица,
                   17/2</a></li>
-              <li><a href="https://2gis.kg/bishkek/geo/70000001092731540">​Гипермаркет Азия, улица Льва
-                  Толстого,
-                  24</a>
+              <li><a href="https://2gis.kg/bishkek/geo/70000001030446839">​Гипермаркет Азия, улица Садырбаева,
+                  107</a>
               </li>
             </ul>
           </div>
@@ -871,15 +880,121 @@
         </div>
       </div>
       <div class="cs_footer_bottom">
-        <p class="mb-0 cs_copyright">Copyright 2025 ©archapoint | All Right Reserved</p>
+        <p class="mb-0 cs_copyright">Copyright 2026 ©archapoint | All Right Reserved</p>
         <p class="mb-0 cs_copyright">Created by <a href="https://t.me/+996500991414"
             style="text-decoration: underline; color: aqua;">albvnovs</a></p>
         <ul class="cs_footer_menu">
-          <li><a href="#">Политика конфиденциальности</a></li>
+          <li><a href="/privacy_policy.pdf">Политика конфиденциальности</a></li>
+          <li><a href="/offer_agreement.pdf">Договор оферты</a></li>
         </ul>
       </div>
     </div>
   </footer>
+  <!-- Модальное окно -->
+  <div id="policyModal" class="policy-modal">
+    <div class="policy-modal-content">
+      <h3>Политика конфиденциальности</h3>
+
+      <div class="policy-text">
+        <p>
+          Пользования постаматами компании «Арча Поинт»
+          1. Общие положения Настоящая Политика конфиденциальностирегулирует порядок обработки и защиты персональных
+          данных, которые собираются в процессе использования сети постаматовкомпании «Арча Поинт» (далее —«Компания»).
+          Компанияобязуется соблюдать конфиденциальность и безопасностьперсональных данных всех пользователей
+          постаматов. Подперсональными данными понимаются любые сведения, позволяющие идентифицировать физическое лицо
+          (далее- «Пользователь»). 2. Сбор и обработка данных Категории персональных данных, которые собираются:
+          ФИО пользователя
+          Контактные данные (номер телефона, электронная почта)
+          Уникальные идентификационные коды для полученияивозвратазаказов (например, QR-коды, коды, полученныепоSMS)
+          Данные об операциях с заказами (время закладки, получения, возврата товаров). Логи действий, связанных с
+          использованием постаматов(например, даты и время открытия ячеек, действия курьеров).
+        </p>
+        <p>
+          Способы сбора данных:
+          При создании и обработке заказа через постаматы (например, прииспользовании QR-кода для получения заказа)
+          Через взаимодействие с терминалом постамата при закладке илиизвлечении посылок. Через курьерскую службу, если
+          они участвуют в процессе доставкии возврата заказов.
+        </p>
+        <p>
+          Цели обработки данных:
+          Предоставление доступа к ячейкам постаматов для закладкииполучения товаров
+          Оповещение пользователей о статусе заказа (например, уведомления о готовности заказа к получению)
+          Ведение статистики использования постаматов для улучшениясервисами оптимизации логистики
+          Предотвращение мошенничества и других злоупотреблений.
+        </p>
+        <p>
+          3. Передача данных третьим лицам Персональные данные могутбыть переданы третьим лицам (курьерские службы,
+          логистическиекомпании) только в рамках оказания услуг доставки и возвратазаказов через постаматы. Эти данные
+          используются исключительно для обеспечениядоставки и хранения товаров. Компания обязуется не
+          передаватьперсональные данные Пользователей третьим лицамбез ихсогласия, за исключением случаев,
+          предусмотренныхзаконодательством. В некоторых случаях данные могутпередаваться государственным органам на
+          основании их запросовив соответствии с законодательством.
+        </p>
+        <p>
+          Продолжая оформление заявки, вы подтверждаете, что ознакомились
+          и согласны с условиями обработки персональных данных.
+        </p>
+        <p>
+          4. Безопасность данных Технические меры. Компания применяет современные технологии защитыданных, такие как
+          шифрование данных при передаче через сети связиизащита паролем для доступа к ячейкам постаматов.
+          Организационные меры:
+          Доступ к персональным данным пользователей имеют толькоуполномоченные сотрудники и партнеры компании,
+          которыеобязаны соблюдать конфиденциальность этих данных. Меры по предотвращению утечек:
+          в случае обнаружения утечки данных Компания обязуетсяуведомить пользователей в кратчайшие сроки и
+          принятьнеобходимые меры для предотвращения дальнейшегораспространения информации.
+        </p>
+        <p>
+          5. Права Пользователей
+          Право на доступ и корректировку. Пользователь имеет право запросить информациюо том, какиеперсональные данные
+          хранятся, и внести изменения вэтуинформацию, если она оказалась неверной или устаревшей. Право на удаление
+          данных: Пользователь имеет право запроситьудаление своих персональных данных, если они больше не нужныдля
+          целей обработки или если Пользователь отзывает своё согласиена их обработку.
+          Право на ограничение обработки: Пользователь может потребоватьограничения обработки данных в случаях, когда
+          точность данныхоспаривается, или если обработка данных является незаконной, ноПользователь не хочет, чтобы
+          данные были удалены. Правонаотзыв согласия: В любое время Пользователь может отозвать своёсогласие на
+          обработку персональных данных, однако это можетповлечь невозможность использования постаматов.
+        </p>
+        <p>
+          6. Хранение данных
+          Персональные данные пользователей хранятся только в течениесрока, необходимого для выполнения операций с
+          заказами(получение, закладка, возврат), а также для соблюдениязаконодательства. Личные данные, такие как
+          история операцийспостаматами, хранятся до 3 лет с момента завершения транзакции, после чего подлежат удалению.
+          7. Обработка данных курьеров курьеры, использующие постаматыдля закладки или изъятия заказов, также
+          предоставляют данныедляаутентификации, такие как:
+          Имя и идентификационный номер курьера. QR-коды для входа в систему курьеров. Логи операций с ячейками (время
+          закладки, изъятиязаказов)(Постаматы регламент кур...). Эти данные хранятся для обеспечения безопасности
+          операцийимогут быть использованы для расследования инцидентов, связанных с потерей товаров или мошенничеством.
+        </p>
+        <p>
+          8. Использование технологий отслеживания
+          Компания может использовать технологию cookies для сбораинформации о действиях пользователей на сайте
+          постаматов идляулучшения работы системы постаматов. Эти файлыпомогаютулучшить взаимодействие с сервисом, а
+          также ускоряют работупостаматов.
+        </p>
+        <p>
+          9. Изменения в Политике конфиденциальности
+          Компания оставляет за собой право изменять настоящуюПолитикуконфиденциальности. Изменения вступают в силу с
+          моментаихпубликации на сайте компании и в системе постаматов. Пользователи будут уведомлены о значительных
+          измененияхчерезсистему уведомлений или электронную почту. 10. Контакты для связи
+          По вопросам обработки данных или для реализации своихправПользователь может обратиться в компанию по
+          следующимконтактам: Телефон: +996 555 888 881
+        </p>
+      </div>
+
+      <label class="policy-checkbox">
+        <input type="checkbox" id="policyAgree">
+        Я ознакомился(лась) и согласен(на) с политикой конфиденциальности
+      </label>
+
+      <div class="policy-actions">
+        <button class="policy-btn cancel" id="closePolicy">Отмена</button>
+        <button class="policy-btn submit" id="confirmSubmit" disabled>
+          Подтвердить и отправить
+        </button>
+      </div>
+    </div>
+  </div>
+
   <script src="assets/js/jquery-3.6.0.min.js"></script>
   <script src="assets/js/gsap.min.js"></script>
   <script src="assets/js/wow.min.js"></script>
@@ -887,6 +1002,43 @@
   <script src="assets/js/odometer.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/modal.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+
+      const openPolicy = document.getElementById('openPolicy');
+      const modal = document.getElementById('policyModal');
+      const closePolicy = document.getElementById('closePolicy');
+      const checkbox = document.getElementById('policyAgree');
+      const confirmBtn = document.getElementById('confirmSubmit');
+      const form = document.querySelector('.cs_unique_form');
+
+      if (!openPolicy || !modal || !form) {
+        console.error('Один из элементов не найден');
+        return;
+      }
+
+      openPolicy.onclick = () => {
+        modal.style.display = 'block';
+      };
+
+      closePolicy.onclick = () => {
+        modal.style.display = 'none';
+        checkbox.checked = false;
+        confirmBtn.disabled = true;
+      };
+
+      checkbox.onchange = () => {
+        confirmBtn.disabled = !checkbox.checked;
+      };
+
+      confirmBtn.onclick = () => {
+        modal.style.display = 'none';
+        form.submit();
+      };
+
+    });
+  </script>
+
 </body>
 
 </html>

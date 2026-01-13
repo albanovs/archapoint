@@ -1,84 +1,75 @@
 const form = document.querySelector('.cs_unique_form');
 
+const openPolicy = document.getElementById('openPolicy');
+const modal = document.getElementById('policyModal');
+const closePolicy = document.getElementById('closePolicy');
+const checkbox = document.getElementById('policyAgree');
+const confirmBtn = document.getElementById('confirmSubmit');
+
+openPolicy.addEventListener('click', () => {
+    modal.style.display = 'flex';
+});
+
+closePolicy.addEventListener('click', () => {
+    modal.style.display = 'none';
+    checkbox.checked = false;
+    confirmBtn.disabled = true;
+});
+
+checkbox.addEventListener('change', () => {
+    confirmBtn.disabled = !checkbox.checked;
+});
+
 function showModal(message) {
     const modal = document.createElement('div');
-
     const backdrop = document.createElement('div');
-    backdrop.style.position = 'fixed';
-    backdrop.style.top = '0';
-    backdrop.style.left = '0';
-    backdrop.style.width = '100%';
-    backdrop.style.height = '100%';
-    backdrop.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
-    backdrop.style.zIndex = '999';
-    backdrop.style.animation = 'fadeIn 0.3s ease-out';
 
-    modal.style.position = 'fixed';
-    modal.style.top = '50%';
-    modal.style.left = '50%';
-    modal.style.transform = 'translate(-50%, -50%) scale(0)';
-    modal.style.backgroundColor = 'rgba(106, 106, 131, 0.33)';
-    modal.style.padding = '90px';
-    modal.style.color = 'white';
-    modal.style.textAlign = 'center';
-    modal.style.zIndex = '1000';
-    modal.style.border = '0.5px solid #2d3e61';
-    modal.style.transition = 'transform 0.3s ease-out';
-    modal.style.animation = 'scaleIn 0.3s ease-out forwards';
+    backdrop.style.cssText = `
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.6);
+        z-index: 9998;
+    `;
+
+    modal.style.cssText = `
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #1f2937;
+        color: #fff;
+        padding: 30px;
+        border-radius: 12px;
+        max-width: 90%;
+        text-align: center;
+        z-index: 9999;
+    `;
 
     modal.innerHTML = `
-    <p>${message}</p>
-    <button id="closeModal" style="margin-top: 10px; padding: 10px 20px; background-color: #18c9ff; color: white; border: none; border-radius: 4px; cursor: pointer;">
-      Закрыть
-    </button>
-  `;
+        <p style="margin-bottom: 20px;">${message}</p>
+        <button id="closeResultModal"
+            style="padding: 10px 20px; border: none; border-radius: 6px; background:#18c9ff; color:#000; cursor:pointer;">
+            Закрыть
+        </button>
+    `;
 
-    document.body.appendChild(backdrop);
-    document.body.appendChild(modal);
+    document.body.append(backdrop, modal);
 
-    const closeModal = document.getElementById('closeModal');
-    closeModal.addEventListener('click', () => {
-        backdrop.remove();
+    document.getElementById('closeResultModal').onclick = () => {
         modal.remove();
-    });
+        backdrop.remove();
+    };
 }
 
-const styleSheet = document.createElement("style");
-styleSheet.type = "text/css";
-styleSheet.innerText = `
-    @keyframes fadeIn {
-        0% { opacity: 0; }
-        100% { opacity: 1; }
-    }
-    @keyframes scaleIn {
-        0% { transform: translate(-50%, -50%) scale(0); }
-        100% { transform: translate(-50%, -50%) scale(1); }
-    }
-    .loader {
-        border: 3px solid #f3f3f3; /* Light grey */
-        border-top: 3px solid #18c9ff; /* Blue */
-        border-radius: 50%;
-        width: 20px;
-        height: 20px;
-        animation: spin 1s linear infinite;
-    }
 
-    @keyframes spin {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-    }
-`;
-document.head.appendChild(styleSheet);
+confirmBtn.addEventListener('click', async (e) => {
+    e.preventDefault();
 
-form.addEventListener('submit', async (event) => {
-    event.preventDefault();
-    const submitButton = document.querySelector('button[type="submit"]');
-    const loader = document.createElement('div');
-    loader.classList.add('loader');
+    modal.style.display = 'none';
 
+    const submitButton = openPolicy;
     submitButton.disabled = true;
-    submitButton.innerHTML = '';
-    submitButton.appendChild(loader);
+    submitButton.innerHTML = '<div class="loader"></div>';
 
     const formData = {
         name: document.getElementById('name').value,
@@ -87,23 +78,29 @@ form.addEventListener('submit', async (event) => {
         detail: document.getElementById('detail').value,
         postamat: document.getElementById('terminal').value,
     };
+
     try {
-        const response = await fetch('https://integration-sov-kg.onrender.com/api/archasaveFormData', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(formData),
-        });
+        const response = await fetch(
+            'https://integration-sov-kg-39bd.onrender.com/api/archasaveFormData',
+            {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData),
+            }
+        );
 
         if (response.ok) {
             showModal('Заявка успешно оформлена!');
-            form.reset();
+            document.getElementById('name').value = '';
+            document.getElementById('phone').value = '';
+            document.getElementById('from').value = '';
+            document.getElementById('detail').value = '';
+            document.getElementById('terminal').value = '';
         } else {
-            showModal('Ошибка отправки заявки. Попробуйте ещё раз.');
+            showModal('Ошибка отправки заявки.');
         }
-    } catch (error) {
-        showModal('Ошибка подключения. Проверьте соединение с интернетом.');
+    } catch (err) {
+        showModal('Ошибка подключения.');
     } finally {
         submitButton.disabled = false;
         submitButton.innerHTML = 'Отправить';

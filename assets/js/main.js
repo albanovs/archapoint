@@ -83,6 +83,10 @@
       $(this).toggleClass('active').siblings('ul').slideToggle();
       $(this).parent().toggleClass('active');
     });
+    $('.cs_nav_list a').on('click', function () {
+      $('.cs_menu_toggle').removeClass('cs_toggle_active');
+      $('.cs_nav_list').removeClass('cs_active');
+    });
   }
 
   /*--------------------------------------------------------------
